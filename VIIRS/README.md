@@ -1,6 +1,6 @@
-Instructions for downloading VIIRS Data from Earthdata
+# Instructions for downloading VIIRS Data from Earthdata
 
-General Notes:
+# General Notes
 
 you will need to make an account with NASA Earthdata before you can download any of the data
 
