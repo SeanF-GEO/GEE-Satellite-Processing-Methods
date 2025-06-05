@@ -37,7 +37,7 @@ After going to [Earthdata Search | Earthdata Search (nasa.gov)](https://search.e
 
 - When you are done. Click on my project button in the upper right corner to name your project and prepare the data for download and click download data  
 
-Step 2: Organization and converting NetCDFS to excel
+# Step 2: Organization and converting NetCDFS to excel
 
 Once you have downloaded the corresponding NetCDFS for each of the 4 Earthdata VIIRS outputs I recommend saving them into 4 folders named something like the image below.
 
@@ -57,7 +57,7 @@ ADDITIONAL NOTES / ERRORS during this step
 
 - This issue did not happen with the JPSS and NPP Active Fire 375m V002 NETcdfs  
 
-Step 3: Update NetCDF excels with Satellite Time, Date, and Sensor Name
+# Step 3: Update NetCDF excels with Satellite Time, Date, and Sensor Name
 
 Once you have produced a sub directory folder for each NetCDF file containing metadata Excel files the next step is to add the satellite name, collection time, and data for each CSV
 
@@ -69,7 +69,7 @@ Once you have produced a sub directory folder for each NetCDF file containing me
 
         "I:\\\\NetCDFS\\VIIRSJPSS1ActiveFires6MinL2Swath375mV002\\\\NETCDF_OUTPUTS"  
 
-Step 4: Merging CSVs into One single CSV
+# Step 4: Merging CSVs into One single CSV
 
 This step joins together every FRP VIIRS excel into one single FRP CSV for all the days during your study time window. Also important to note the FRP is in MW and can be seen in the metadata files
 
@@ -86,7 +86,7 @@ This step joins together every FRP VIIRS excel into one single FRP CSV for all t
 
         This CSV will have  
 
-Step 5: Converting Time and Date in CSV
+# Step 5: Converting Time and Date in CSV
 
 When you open the CSV in Excel you will need to convert time from general to time and you need to change the data from general to short date
 
@@ -102,7 +102,7 @@ When you open the CSV in Excel you will need to convert time from general to tim
 
   - And the second formula will convert the date to a shorter date that is easy to sort while working in ArcPro  
 
-Step 6: Convert CSV to SHP
+# Step 6: Convert CSV to SHP
 
 This script will convert your merged and edited CSV file from Step 5 to a final shapefile. You will need to change your file path on line 6 to your merged shapefile and you will need to select where you want to export your final shapefile on line 17
 
